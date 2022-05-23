@@ -1,1 +1,0 @@
-# bcs-06-library-search-tool
