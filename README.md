@@ -4,11 +4,11 @@
 
 ## Introduction
 
-[Library Search](https://leoelicos.github.io/bcs-06-library-search-tool) Tool uses asynchronous Javascript to fetch data via [Library of Congress API](https://libraryofcongress.github.io/data-exploration/requests.html) using user input. The data is rendered in HTML and styled with CSS.
+[Library Search Tool](https://leoelicos.github.io/bcs-06-library-search-tool) allows the user to search the Library of Congress database and see a list of results.
 
-The app allows the user to search the Library of Congress database and see a list of results.
+The app uses `fetch` to send GET requests to [Library of Congress API](https://libraryofcongress.github.io/data-exploration/requests.html) with a query generated from user input. The user input includes a search string and an optional format string. Finally, the results are rendered in `HTML` and styled with `CSS`.
 
-Additionally, the user may also choose a format from a list of options.
+I made this app to learn about fetch, server-side APIs, and I learned about the `Response.json()` method as well as Javascript promises.
 
 ## Usage
 
