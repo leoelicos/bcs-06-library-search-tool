@@ -19,7 +19,7 @@ submitBtnEl.addEventListener('click', formSubmitHandler);
 
 const backHandler = (e) => {
 	e.preventDefault();
-	const url = `../index.html`;
+	const url = `../../index.html`;
 	location.replace(url);
 };
 
