@@ -14,17 +14,19 @@ Library Search Tool is deployed at https://leoelicos.github.io/bcs-06-library-se
 
 ## Video Demo
 
+https://user-images.githubusercontent.com/99461390/170167950-54ea531b-5b51-4d3b-b319-d2f83bc81bb2.mp4
+
 ---
 
 ## Screenshots
 
 ### Screenshot: Homepage
 
-![Screenshot: Homepage](___)
+![Screenshot: Homepage](https://user-images.githubusercontent.com/99461390/170168105-42deda87-20de-46ae-a613-a1d12f0961c1.jpg)
 
 ### Screenshot: Search Results Page
 
-![Screenshot: Search Results Page](___)
+![Screenshot: Search Results Page](https://user-images.githubusercontent.com/99461390/170168114-2e684203-0140-4648-92c0-65ca7f05cdc4.jpg)
 
 ## Credits
 
