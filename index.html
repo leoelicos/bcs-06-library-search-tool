@@ -4,11 +4,35 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./public/css/style.css" />
 		<title>Library Search Tool</title>
 	</head>
 	<body>
-		<header>Library Search Header</header>
-		<main>Library Search Main</main>
-		<footer>Library Search Footer</footer>
+		<header>Search</header>
+		<main>
+			<section class="search-element">
+				<h1>Library of Congress Search Engine</h1>
+				<form>
+					<input type="search-text" id="search-text" placeholder="Search" class="search-text" />
+
+					<select id="search-format" class="search-format">
+						<optgroup label="Formats">
+							<option value="default">Select a format…</option>
+							<option value="maps">Maps</option>
+							<option value="audio">Audio</option>
+							<option value="photos">Photos</option>
+							<option value="manuscripts">Manuscripts</option>
+							<option value="newspapers">Newspapers</option>
+							<option value="film-and-videos">Film, videos</option>
+							<option value="notated-music">Printed music</option>
+							<option value="websites">Websites</option>
+						</optgroup>
+					</select>
+					<button type="submit" id="submit-button" class="submit-button">Search</button>
+				</form>
+			</section>
+		</main>
+		<footer>Library Search Tool</footer>
+		<script src="./public/js/index.js"></script>
 	</body>
 </html>
