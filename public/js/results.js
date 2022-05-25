@@ -32,9 +32,6 @@ const getQuery = () => {
 	const searchText = params.q;
 	const searchFormat = params.format;
 
-	console.log(`The searchText = ${searchText}`);
-	console.log(`The searchFormat = ${searchFormat}`);
-
 	return { searchText, searchFormat };
 };
 
@@ -46,7 +43,6 @@ const locSearch = async (searchText) => {
 
 const locSearchFormat = async (searchText, searchFormat) => {
 	const query = `https://loc.gov/${searchFormat}/?q=${searchText}&fo=json`;
-	console.log(query);
 	const resObject = await fetch(query);
 	return resObject.json();
 };
@@ -73,8 +69,6 @@ const textElement = (type, text) => {
 };
 
 const renderResults = (data) => {
-	console.log(data);
-
 	if (!data.length) {
 		resultsContainer.append(textElement('p', 'Unfortunately, no results were found'));
 		return;
