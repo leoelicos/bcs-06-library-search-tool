@@ -4,13 +4,27 @@
 
 ## Introduction
 
-Allows the user to search the Library of Congress database and see a list of results. The user may also choose a format from the following list:
+[Library Search](https://leoelicos.github.io/bcs-06-library-search-tool) Tool uses asynchronous Javascript to fetch data via [Library of Congress API](https://libraryofcongress.github.io/data-exploration/requests.html) using user input. The data is rendered in HTML and styled with CSS.
 
--
+The app allows the user to search the Library of Congress database and see a list of results.
+
+Additionally, the user may also choose a format from a list of options.
 
 ## Usage
 
-Library Search Tool is deployed at https://leoelicos.github.io/bcs-06-library-search-tool/
+1. Open [Library Search Tool](https://leoelicos.github.io/bcs-06-library-search-tool/) in a web browser.
+
+2. Type a search query and press enter or click Submit.
+
+3. Optionally you may select a format for the search query:
+   -  Maps
+   -  Audio
+   -  Photos
+   -  Manuscripts
+   -  Newspapers
+   -  Film, videos
+   -  Printed music
+   -  Websites
 
 ## Video Demo
 
