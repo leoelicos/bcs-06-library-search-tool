@@ -11,7 +11,7 @@ const formSubmitHandler = (e) => {
 		return;
 	}
 	const searchFormat = searchFormatEl.value;
-	const url = `/public/pages/results.html?q=${searchText}&format=${searchFormat}`;
+	const url = `public/pages/results.html?q=${searchText}&format=${searchFormat}`;
 	location.replace(url);
 };
 
