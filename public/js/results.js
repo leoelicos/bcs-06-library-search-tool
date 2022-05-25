@@ -11,7 +11,7 @@ const formSubmitHandler = (e) => {
 		return;
 	}
 	const searchFormat = searchFormatEl.value;
-	const url = `public/pages/results.html?q=${searchText}&format=${searchFormat}`;
+	const url = `./results.html?q=${searchText}&format=${searchFormat}`;
 	location.replace(url);
 };
 
@@ -19,7 +19,7 @@ submitBtnEl.addEventListener('click', formSubmitHandler);
 
 const backHandler = (e) => {
 	e.preventDefault();
-	const url = `/index.html`;
+	const url = `../index.html`;
 	location.replace(url);
 };
 
